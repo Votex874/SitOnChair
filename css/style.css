@@ -102,26 +102,6 @@ li ul li
     align-items: center;
     position: relative;
 }
-.section1_box-img:before
-{
-    content: "V";
-    position: absolute;
-    font-size: 60px;
-    transform: rotate(90deg);
-    top: 120px;
-    left: 30px;
-    color: #24BA9F;
-}
-.section1_box_text:after
-{
-    content: "V";
-    position: absolute;
-    font-size: 60px;
-    transform: rotate(270deg);
-    top: 120px;
-    right: 0;
-    color: #24BA9F;
-}
 
 .section1_box_text button
 {
@@ -162,10 +142,10 @@ li ul li
 .V_link
 {
     position: absolute;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     transform: rotate(90deg);
-    top: 120px;
+    bottom: 150px;
     left: 30px;
 }
 .section1_box_text
@@ -176,10 +156,10 @@ li ul li
 .V_link2
 {
     position: absolute;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     transform: rotate(270deg);
-    top: 100px;
+    bottom: 100px;
     right: 10px;
 
 }
@@ -189,7 +169,34 @@ li ul li
     color: #24BA9F;
     z-index: 1;
 }
+.section2
+{
+    width: 1060px;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
 
+.section2
+{
+    display: flex;
+}
+.section2_box
+{
+    display: flex;
+    justify-content: space-between;
+}
+.section2_box > div
+{
+    padding: 20px;
+}
+.section2_box div:last-child
+{
+    border: 1px solid #E8E8E8;
+}
+.section2_box div h4
+{
+    padding-bottom: 15px;
+}
 
 
 
