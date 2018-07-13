@@ -10,7 +10,7 @@ body
     font-family: 'Raleway', sans-serif;
 }
 
-a
+header a
 {
     text-decoration: none;
     color: white;
@@ -146,11 +146,49 @@ li ul li
     margin: 20px 60px;
 }
 
+.section1_box-img
+{
+    position: relative;
+}
 
+.V_link a
+{
+    text-decoration: none;
+    color: #24BA9F;
+    z-index: 1;
+    top: 100px;
+}
 
+.V_link
+{
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    transform: rotate(90deg);
+    top: 120px;
+    left: 30px;
+}
+.section1_box_text
+{
+    position: relative;
+}
 
+.V_link2
+{
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    transform: rotate(270deg);
+    top: 100px;
+    right: 10px;
 
-
+}
+.V_link2 a
+{
+    text-decoration: none;
+    color: #24BA9F;
+    z-index: 1;
+}
 
 
 
