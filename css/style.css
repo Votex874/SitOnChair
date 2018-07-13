@@ -323,6 +323,30 @@ li ul li
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+
+.section3_box:after
+{
+    content: "CENNIK";
+    position: absolute;
+    top: -80px;
+    font-size: 26px;
+    left: 10px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.section3_box:before
+{
+    content: " ";
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    display: block;
+    width: 280px;
+    height: 7px;
+    background-color: #24BA9F;
 }
 
 .section3_box_optiona1
@@ -441,7 +465,7 @@ section3_box_optiona1
     width: 100%;
     text-align: center;
     padding: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     color: #7F7F7F;
     font-size: 1.1rem;
 
@@ -458,20 +482,20 @@ section3_box_optiona1
 
 }
 
-section3_box_optiona2
+.section3_box_optiona2
 {
-    background-color: #F9F9F9;
+    background-color: #24BA9F;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #D5D5D5;
     width: 30%;
+    border: 3px solid #24BA9F;
 }
 
 .section3_box_optiona2 > h4
 {
     margin-top: 40px;
-    color: #24BA9F;
+    color: #E8F5F6;
     margin-bottom: 30px;
     font-size: 24px;
     font-weight: 200;
@@ -495,37 +519,40 @@ section3_box_optiona2
 
 .section3_box_optiona2 > p
 {
-    background-color: #E4E4E4;
+    background-color: #FFFFFF;
     width: 100%;
     text-align: center;
     padding: 10px;
     color: #9C9C9C;
     font-size: 1.1rem;
 }
-.section3_box_optiona2 > p + p
+
+.section3_box_optiona2 p:nth-of-type(2)
 {
     background-color: #F1F1F1;
-    width: 100%;
-    text-align: center;
     padding: 10px;
-    margin-bottom: 60px;
-    color: #7F7F7F;
     font-size: 1.1rem;
-
+}
+.section3_box_optiona2 p:last-of-type
+{
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 1.1rem;
 }
 
 .section3_box_optiona2 > button
 {
     width: 120px;
     height: 40px;
-    background-color: #24BA9F;
+    background-color: #FFFFFF;
     border-radius: 10px;
-    color: white;
+    color: #24BA9F;
     margin-bottom: 30px;
 
 }
 
-section3_box_optiona3
+.section3_box_optiona3
 {
     background-color: #F9F9F9;
     display: flex;
@@ -533,6 +560,7 @@ section3_box_optiona3
     align-items: center;
     border: 1px solid #D5D5D5;
     width: 30%;
+
 }
 
 .section3_box_optiona3 > h4
@@ -552,7 +580,7 @@ section3_box_optiona3
     background-color: #FFFFFF;
     padding: 20px;
     padding-top: 23px;
-    padding-left: 30px;
+    padding-left: 22px;
     border: 1px solid #D5D5D5;
     margin-bottom: 40px;
     color: #D5D5D5;
