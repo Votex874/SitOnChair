@@ -623,14 +623,80 @@ li ul li
 .section4
 {
     background-color: #FFFFFF;
+    display: flex;
 }
 
 .section4_box
 {
     margin: 0 auto;
     width: 1060px;
+    display: flex;
+    flex-direction: row;
 }
 
+.section4_box_container1
+{
+    border: 1px solid black;
+}
+
+.section4_box_container1 h4
+{
+    position: relative;
+    text-align: left;
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+
+.section4_box_container1 h4:after
+{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 280px;
+    height: 7px;
+    background-color: #24BA9F;
+    margin-top: 2px;
+}
+
+.section4_box_container2
+{
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+}
+label input
+{
+    margin-right: 20px;
+    margin-left: 15px;
+    width: 500px;
+    height: 45px;
+    padding: 5px;
+    border: 1px solid rgba(39, 199, 171, .4);
+}
+
+label > input
+{
+    margin-bottom: 15px;
+}
+
+textarea
+{
+    resize: none;
+    margin-left: 15px;
+    width: 500px;
+    height: 120px;
+    padding: 5px;
+    border: 1px solid rgba(39, 199, 171, .4);
+    margin-bottom: 30px;
+}
+
+::placeholder
+{
+    padding: 10px;
+    font-size: 20px;
+    color: #D5D5D5;
+}
 
 
 
