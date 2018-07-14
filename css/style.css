@@ -68,7 +68,6 @@ header
 ul
 {
     display: flex;
-
 }
 
 .container_header > ul > li
@@ -81,6 +80,7 @@ ul
     font-weight: 200;
     letter-spacing: 1px;
 }
+
 .text_on_green
 {
     font-weight: bold;
@@ -89,9 +89,7 @@ ul
 
 .list_item_hover:hover ul
 {
-
     display: block;
-
 }
 
 .list_item_hover_dropdown
@@ -117,11 +115,13 @@ li ul li
     line-height: 25px;
     font-size: 0.8rem;
 }
+
 .section1
 {
     background: linear-gradient(#FFFFFF, #c5c4c9);
     display: flex;
 }
+
 .section1_box
 {
     width: 1060px;
@@ -178,7 +178,6 @@ li ul li
     transform: rotate(90deg);
     bottom: 150px;
     left: -20px;
-
 }
 .section1_box_text
 {
@@ -193,8 +192,6 @@ li ul li
     transform: rotate(270deg);
     bottom: 100px;
     right: 10px;
-
-
 }
 .V_link2 a
 {
@@ -405,7 +402,6 @@ li ul li
     padding: 10px;
     color: #7F7F7F;
     font-size: 1.1rem;
-
 }
 
 .section3_box_optiona1 > button
@@ -418,7 +414,6 @@ li ul li
     margin-bottom: 30px;
     cursor: pointer;
     margin-top: 120px;
-
 }
 
 
@@ -490,7 +485,6 @@ li ul li
     margin-bottom: 30px;
     cursor: pointer;
     margin-top: 80px;
-
 }
 
 .section3_box_optiona3
@@ -501,7 +495,6 @@ li ul li
     align-items: center;
     border: 1px solid #D5D5D5;
     width: 30%;
-
 }
 
 .section3_box_optiona3 > h4
@@ -567,7 +560,6 @@ li ul li
     padding: 10px;
     color: #969696;
     font-size: 1.1rem;
-
 }
 
 .section3_box_optiona3 > button
@@ -580,9 +572,7 @@ li ul li
     margin-top: 40px;
     margin-bottom: 30px;
     cursor: pointer;
-
 }
-
 
 .amout
 {
@@ -626,12 +616,20 @@ li ul li
 
 .circle:nth-of-type(3)
 {
-
     top: -33px;
     left: 870px;
 }
 
+.section4
+{
+    background-color: #FFFFFF;
+}
 
+.section4_box
+{
+    margin: 0 auto;
+    width: 1060px;
+}
 
 
 
