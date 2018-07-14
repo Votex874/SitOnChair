@@ -173,9 +173,7 @@ li ul li
 .V_link
 {
     position: absolute;
-    font-size: 50px;
-    color: black;
-    transform: rotate(90deg);
+    font-size: 70px;
     bottom: 150px;
     left: -20px;
 }
@@ -188,8 +186,6 @@ li ul li
 {
     position: absolute;
     font-size: 50px;
-    color: black;
-    transform: rotate(270deg);
     bottom: 100px;
     right: 10px;
 }
@@ -574,10 +570,28 @@ li ul li
     cursor: pointer;
 }
 
-.amout
+.amout1
 {
     font-size: 14px;
-    margin-bottom: 20px;
+    position: absolute;
+    top: 175px;
+    left: 490px;
+}
+
+.amout2
+{
+    font-size: 14px;
+    position: absolute;
+    top: 175px;
+    left: 120px;
+}
+
+.amout3
+{
+    font-size: 14px;
+    position: absolute;
+    top: 175px;
+    left: 860px;
 }
 
 .a2
