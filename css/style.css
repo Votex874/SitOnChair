@@ -596,7 +596,40 @@ li ul li
     border: 1px solid black;
 }
 
+.circle
+{
+    width: 66px;
+    height: 66px;
+    display: block;
+    background-color: #C2C2C2;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    box-shadow: inset 0 0 0 12px #fff;
+    border: 2px solid #D5D5D5;
+}
 
+.circle:first-child
+{
+    top: -33px;
+    left: 128px;
+}
+
+.circle:nth-of-type(2)
+{
+    background-color: #F9F9F9;
+    top: -33px;
+    left: 497px;
+    box-shadow: inset 0 0 0 16px #24BA9F;
+    border: none;
+}
+
+.circle:nth-of-type(3)
+{
+
+    top: -33px;
+    left: 870px;
+}
 
 
 
