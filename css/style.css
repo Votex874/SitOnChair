@@ -57,7 +57,6 @@ header
     color: white;
     display: flex;
     justify-content: space-between;
-    border: 1px solid yellow;
 }
 .container_header h3
 {
@@ -65,31 +64,14 @@ header
     font-weight: 300;
 }
 
-ul
-{
-    display: flex;
-}
 
-.container_header > ul > li
-{
-    font-size: 14px;
-    padding-top: 20px;
-    padding-bottom: 20px ;
-    margin-left: 20px;
-    list-style: none;
-    font-weight: 200;
-    letter-spacing: 1px;
-}
+
+
 
 .text_on_green
 {
     font-weight: bold;
     color: #24BA9F
-}
-
-.list_item_hover:hover ul
-{
-    display: block;
 }
 
 .list_item_hover_dropdown
@@ -108,12 +90,85 @@ ul
     position: relative;
 }
 
-li ul li
+ul
 {
-    list-style: none;
+    list-style-type: none;
+    font-size: 14px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+
+}
+
+ul > li
+{
+    float: left;
+    width: 120px;
+    height: 40px;
     text-align: center;
-    line-height: 25px;
-    font-size: 0.8rem;
+}
+
+ul > li:nth-of-type(3)
+{
+    float: left;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+ul > li:hover
+{
+    background-color: #000;
+}
+
+ul > li:hover > a
+{
+    color: #fff;
+}
+
+ul > li > ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+}
+
+ul > li:hover > ul
+{
+    display: block;
+}
+
+ul > li > ul > li
+{
+    background-color:#000;
+    position: relative;
+    z-index: 100;
+}
+
+ul > li > ul > li:hover
+{
+    background-color: #000;
+}
+
+ul > li > ul > li:hover > a
+{
+    color: #fff;
 }
 
 .section1
@@ -126,7 +181,6 @@ li ul li
 {
     width: 1060px;
     margin: 0 auto;
-    border: 3px solid black;
     display: flex;
     text-align: center;
     align-items: center;
@@ -154,6 +208,7 @@ li ul li
 .section1_box_text p
 {
     margin: 20px 60px;
+    width: 360px;
 }
 
 .section1_box-img
@@ -166,40 +221,40 @@ li ul li
     text-decoration: none;
     color: #24BA9F;
     z-index: 1;
-    top: 100px;
-    padding: 50px;
+    padding: 40px;
 }
 
 .V_link
 {
     position: absolute;
     font-size: 70px;
-    bottom: 150px;
+    bottom: 133px;
     left: -20px;
 }
 .section1_box_text
 {
     position: relative;
+    margin-right: 20px;
 }
 
 .V_link2
 {
     position: absolute;
-    font-size: 50px;
-    bottom: 100px;
-    right: 10px;
+    font-size: 70px;
+    bottom: 80px;
+    right: -80px;
 }
 .V_link2 a
 {
     text-decoration: none;
     color: #24BA9F;
     z-index: 1;
+    padding: 40px;
 }
 .section2
 {
     width: 1060px;
     margin: 0 auto;
-    border: 1px solid blue;
 }
 
 .section2
@@ -216,12 +271,16 @@ li ul li
 
 .section2_box > div
 {
-    padding: 20px;
+    padding: 30px 15px;
 }
 
 .section2_box div:last-child
 {
     border: 1px solid #E8E8E8;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
 }
 
 .section2_box div h4
@@ -242,8 +301,8 @@ li ul li
     width: 150px;
     height: 7px;
     background: #24BA9F;
-    top: 43px;
-    left: 20px;
+    top: 50px;
+    left: 15px;
 }
 
 .section2_box-position1
@@ -491,6 +550,7 @@ li ul li
     align-items: center;
     border: 1px solid #D5D5D5;
     width: 30%;
+    margin-right: 30px;
 }
 
 .section3_box_optiona3 > h4
@@ -836,11 +896,47 @@ textarea::placeholder
     padding-left: 30px;
 }
 
+/*
+ul
+{
+    list-style-type: none;
+}
+
+ul a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+ul > li
+{
+    width: 90px;
+    height: 40px;
+}
+
+ul > li > ul
+{
+    list-style-type: none;
+    height: 40px;
+    display: none;
+    color: #fff;
+
+{
+    display: block;
+}
+
+ul > li > ul > li
+{
+    position: relative;
+    z-index: 100;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
 
 
-
-
-
+*/
 
 
 
