@@ -64,10 +64,6 @@ header
     font-weight: 300;
 }
 
-
-
-
-
 .text_on_green
 {
     font-weight: bold;
@@ -103,6 +99,18 @@ ul
     padding-bottom: 20px;
 }
 
+ul > li > ul > li:first-child:after
+{
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    transform: rotate(45deg);
+}
 ul a
 {
     color: #ffffff;
@@ -129,7 +137,6 @@ ul > li:nth-of-type(3)
     border-bottom-right-radius: 10px;
 }
 
-
 ul > li:hover
 {
     background-color: #000;
@@ -143,11 +150,11 @@ ul > li:hover > a
 ul > li > ul
 {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
     height: 40px;
     display: none;
+    margin-top: 10px;
 }
+
 
 ul > li:hover > ul
 {
@@ -159,16 +166,7 @@ ul > li > ul > li
     background-color:#000;
     position: relative;
     z-index: 100;
-}
-
-ul > li > ul > li:hover
-{
-    background-color: #000;
-}
-
-ul > li > ul > li:hover > a
-{
-    color: #fff;
+    padding-top: 5px;
 }
 
 .section1
@@ -185,6 +183,8 @@ ul > li > ul > li:hover > a
     text-align: center;
     align-items: center;
     position: relative;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .section1_box_text button
@@ -310,9 +310,27 @@ ul > li > ul > li:hover > a
     position: relative;
 }
 
+.section2_box-position1--text1
+{
+    position: absolute;
+    z-index: 100;
+    top: 191px;
+    left: 33px;
+    font-weight: 500;
+}
+
 .section2_box-position2
 {
     position: relative;
+}
+
+.section2_box-position2--text2
+{
+    position: absolute;
+    z-index: 100;
+    top: 191px;
+    left: 33px;
+    font-weight: 500;
 }
 
 .section2_box-position1:before
@@ -325,7 +343,7 @@ ul > li > ul > li:hover > a
      opacity: 0.4;
      background: #FFF;
      top: 172px;
-     left: 20px;
+     left: 15px;
  }
 
 .section2_box-position1:after
@@ -350,7 +368,7 @@ ul > li > ul > li:hover > a
     opacity: 0.4;
     background: #FFF;
     top: 172px;
-    left: 20px;
+    left: 15px;
 }
 
 .section2_box-position2:after
@@ -684,7 +702,7 @@ ul > li > ul > li:hover > a
 {
     background-color: #F9F9F9;
     top: -33px;
-    left: 497px;
+    left: 487px;
     box-shadow: inset 0 0 0 16px #24BA9F;
     border: none;
 }
@@ -692,7 +710,7 @@ ul > li > ul > li:hover > a
 .circle:nth-of-type(3)
 {
     top: -33px;
-    left: 870px;
+    left: 840px;
 }
 
 .section4
@@ -895,49 +913,6 @@ textarea::placeholder
     font-size: 14px;
     padding-left: 30px;
 }
-
-/*
-ul
-{
-    list-style-type: none;
-}
-
-ul a
-{
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-}
-
-ul > li
-{
-    width: 90px;
-    height: 40px;
-}
-
-ul > li > ul
-{
-    list-style-type: none;
-    height: 40px;
-    display: none;
-    color: #fff;
-
-{
-    display: block;
-}
-
-ul > li > ul > li
-{
-    position: relative;
-    z-index: 100;
-    height: 50px;
-    width: 100px;
-    background-color: black;
-}
-
-
-*/
-
 
 
 
