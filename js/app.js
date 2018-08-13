@@ -1,7 +1,20 @@
-console.log("Dupa")
 
+//hamburger menu
+const hamburger = document.querySelector(".fas")
+let number = 0;
+hamburger.addEventListener("click", function () {
+
+    if( number === 0){
+        console.log("dupa")
+        this.firstElementChild.style.display = "block";
+        number++;
+    }else{
+        this.firstElementChild.style.display = "none";
+        number--;
+    }
+})
 //dropdown
-const dropDown = document.querySelector("nav ul").firstElementChild
+const dropDown = document.querySelector("nav > ul").firstElementChild
 
 dropDown.addEventListener("mouseover" , function()  {
     this.style.paddingBottom = "40px"
@@ -102,8 +115,8 @@ typeOptions.forEach(e => {
 
 colorOptions.forEach(e => {
     e.addEventListener("click", function () {
-        leftPanelColorOption.innerText = this.innerText;
         rightPanelColorOption.innerText = 0;
+        leftPanelColorOption.innerText = this.innerText;
     })
 })
 

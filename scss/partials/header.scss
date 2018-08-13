@@ -29,6 +29,21 @@ header {
         text-align: center;
         padding: 0.4rem 0.4rem;
         color: white;
+        position: relative;
+        ul{
+          position: absolute;
+          width: 150px;
+          height: 150px;
+          background-color: #000;
+          top: 45px;
+          left: -95px;
+          li{
+            padding: 10px 0;
+          }
+          li:hover{
+            color: rgba(255,255,255, 0.7);
+          }
+        }
       }
       ul {
         display: none;
