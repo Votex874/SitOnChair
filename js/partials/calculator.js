@@ -54,6 +54,7 @@ class userDecision {
         const optionsType = [...this.listArrows[0].nextElementSibling.children]
         optionsType.forEach( e =>{
             e.addEventListener("click",  e => {
+                this.listArrows[0].nextElementSibling.style.display = "none";
                 const leftSidebar = document.querySelector(".panel_left .title");
                 leftSidebar.innerText = e.currentTarget.innerText;
                 this.userChairType.innerText = 210;
@@ -67,6 +68,7 @@ class userDecision {
         const optionsType = [...this.listArrows[1].nextElementSibling.children]
         optionsType.forEach( e =>{
             e.addEventListener("click",  e => {
+                this.listArrows[1].nextElementSibling.style.display = "none";
                 const leftSidebar = document.querySelector(".panel_left .color");
                 leftSidebar.innerText = e.currentTarget.innerText;
                 this.userChairColor.innerText = 30;
@@ -80,6 +82,7 @@ class userDecision {
         const optionsType = [...this.listArrows[2].nextElementSibling.children]
         optionsType.forEach( e =>{
             e.addEventListener("click",  e => {
+                this.listArrows[2].nextElementSibling.style.display = "none";
                 const leftSidebar = document.querySelector(".panel_left .pattern");
                 leftSidebar.innerText = e.currentTarget.innerText;
                 this.userChairPattern.innerText = 60;
