@@ -1,13 +1,13 @@
 SitOnChair
-****
+=
+This is one of the projects implemented on the Coders Lab bootcamp.
+On the website we have a simple slider, hamburger menu and calculator.
+Check it here : https://votex874.github.io/SitOnChair/
 
-you can check it here : https://votex874.github.io/SitOnChair/
-
-
-The page was written using: 
-JS with ES6 ,
-CSS written with SASS
-mobile-first, OOP
-
-
+I USED
+--
+* JavaScript ES6
+* SASS
+* OOP
+* mobile first approach
 
