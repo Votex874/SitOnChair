@@ -11,3 +11,4 @@ I USED
 * OOP
 * mobile first approach
 
+![sitonchair](https://user-images.githubusercontent.com/40391317/45418944-1e98bf80-b686-11e8-8482-777e2d9618a8.jpg)
